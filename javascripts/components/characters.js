@@ -38,8 +38,8 @@ const characterClick = (e) => {
     const characterId = e.target.closest('.character-card').id;
     const currentCharacter = characters.find(x => x.id === characterId);
     detailsBuilder(currentCharacter);
-    
 }
+
 const createEvents = () => {
     const characterCards= document.getElementsByClassName('character-card');
     for (let i = 0; i < characterCards.length; i++) {
