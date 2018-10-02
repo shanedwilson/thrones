@@ -1,1 +1,7 @@
-console.log('main.js');
+import {charactersBuilder} from './components/characters.js'
+
+const initializeApp = () => {
+    charactersBuilder();
+};
+
+initializeApp();
