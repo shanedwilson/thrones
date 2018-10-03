@@ -4,7 +4,6 @@ function executeThisCodeAFterFileLoaded () {
     const data = JSON.parse(this.responseText);
     setCharacters(data.characters);
     charactersBuilder();
-    // console.log('request', data.characters);
 };
 
 function executeThisCodeIfXhrFails () {
